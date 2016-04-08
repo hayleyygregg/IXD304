@@ -1,0 +1,213 @@
+/* style.css for Monstercons */
+
+* { /* reset */
+    
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    
+}
+
+/* Golden Section Font-Size Ratio via Modular Scale
+
+1em
+1.618em
+2.618em
+4.236em
+6.854em
+
+
+*/
+
+body {
+
+    font-family: "proxima-nova", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #343434; /* was #484848 */
+    
+}
+
+header {
+    
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+nav {
+ 
+    padding-top: 20px;
+}
+
+
+nav ul li {
+    
+    display: inline;
+    padding: 0 3px;
+    
+}
+
+nav img {
+    
+    width: 25px;
+    opacity: 0.3;
+}
+
+
+a {
+    
+    text-decoration: none;
+    color: #428bca;
+    
+}
+
+a:hover {
+    
+    color: #27236A;
+    border-bottom: 1px solid #27236A;
+    
+}
+
+nav a:hover {
+    
+    border: none;
+    
+}
+
+nav img:hover {
+    
+    opacity: 0.6;
+    
+}
+
+
+h1 {
+    
+    font-family: "fatfrank", sans-serif;
+    font-size: 3.5em;
+    text-transform: uppercase;
+
+    
+}
+
+h2 {
+
+    font-size: 1em;
+    padding-top: 10px;
+
+}
+
+h2, p {
+    
+    font-weight: 400;
+}
+
+
+section {
+    
+    padding: 100px;
+    
+}
+
+section.monster1 {
+    
+    background-color: #27236A;
+    color: #dedede;
+    
+    
+}
+
+
+section.monster2 {
+    
+    background-color: #57E0E7;
+}
+
+
+section.monster3 {
+    
+    background-color: #B7EA34;
+}
+
+
+section.monster4 {
+    
+    background-color: #FEF75C;
+}
+
+
+
+section.monster5 {
+    
+    background-color: #00EDFF;
+}
+
+
+section.monster6 {
+    
+    background-color: #FABF00;
+}
+
+
+section.monster7 {
+    
+    background-color: #01A1F2;
+    color: #dedede;
+}
+
+
+section.monster8 {
+    
+    background-color: #14EFF5;
+}
+
+
+section.monster9 {
+    
+    background-color: #7451E2;
+    color: #dedede;
+}
+
+
+section.monster10 {
+    
+    background-color: #37D4FF;
+    
+}
+
+section.monster11 {
+    
+    background-color: #70FF90;
+}
+
+
+section.monster12 {
+    
+    background-color: #DEBDEC;
+}
+
+figure, ficaption {
+    
+    text-align: center;
+    
+}
+
+figure img {
+    
+    width: 300px
+    
+}
+
+/*
+figcaption {
+   
+}
+*/
+
+footer {
+    
+    text-align: center;
+    padding: 50px;
+    font-size: 0.8em;
+}
+
