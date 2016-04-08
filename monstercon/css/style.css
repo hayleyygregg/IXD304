@@ -81,13 +81,25 @@ nav img:hover {
 }
 
 
+img.logo {
+    
+    width: 600px;
+}
+
+/* changed to image
+
 h1 {
     
     font-family: "fatfrank", sans-serif;
     font-size: 3.5em;
     text-transform: uppercase;
+   
+}
+*/
 
+h1 {
     
+    display: none;
 }
 
 h2 {
