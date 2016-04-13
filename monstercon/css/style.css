@@ -152,6 +152,18 @@ section.about p.paragraph2 {
     
 }
 
+hr {
+    
+/*    border-top: 1px solid #EE2A7B;*/
+    border: 0;
+background-color: #EE2A7B;
+height: 1px;
+    margin: auto;
+    margin-top: 50px;
+    width: 50px;
+    
+}
+
 
 img.banner {
     
@@ -287,9 +299,23 @@ div.about-monsters h1, div.about-monsters-opposite h1 {
 div.about-monsters p, div.about-monsters-opposite p {
     padding-top: 10px;
     padding-left: 3px; /* put in line with h1 */
+    width: 300px;
+    font-weight: 300;
     
 }
 
+
+div.about-monsters ul, div.about-monsters-opposite ul {
+    
+    font-weight: 300;
+    
+}
+
+div.about-monsters ul li, div.about-monsters-opposite ul li {
+    
+    list-style: none;
+    padding: 3px 0;
+}
 
 div.wrapper {
     
