@@ -245,10 +245,13 @@ figure, ficaption {
 }
 
 
-
 section figure {
     
     float: left;
+}
+
+section figure.opposite-side {
+  float: right;   
 }
 
 
@@ -266,15 +269,22 @@ div.about-monsters {
     
 }
 
+div.about-monsters-opposite {
+    
+    float: left;
+    padding-left: 50px;
+    
+}
 
-div.about-monsters h1 {
+
+div.about-monsters h1, div.about-monsters-opposite h1 {
     
     font-size: 3em;
     font-weight: 100;
     
 }
 
-div.about-monsters p {
+div.about-monsters p, div.about-monsters-opposite p {
     padding-top: 10px;
     padding-left: 3px; /* put in line with h1 */
     
