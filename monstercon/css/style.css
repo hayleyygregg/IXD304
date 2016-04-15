@@ -171,6 +171,11 @@ img.banner {
     padding: 30px 0;
     border-top: 100px solid #6BCDEF;
     border-bottom: 100px solid #6BCDEF;
+    
+/*
+        border-top: 100px solid black;
+    border-bottom: 100px solid black;
+*/
 }
 
 
@@ -301,6 +306,7 @@ div.about-monsters p, div.about-monsters-opposite p {
     padding-left: 3px; /* put in line with h1 */
     width: 300px;
     font-weight: 300;
+    font-size: 1.1em;
     
 }
 
@@ -315,6 +321,8 @@ div.about-monsters ul li, div.about-monsters-opposite ul li {
     
     list-style: none;
     padding: 3px 0;
+    font-size: 1.1em;
+    
 }
 
 div.wrapper {
