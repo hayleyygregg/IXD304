@@ -49,8 +49,8 @@ nav ul li {
 
 nav img {
     
-    width: 25px;
-    opacity: 0.3;
+    width: 35px;
+/*    opacity: 0.3;*/
 }
 
 
@@ -74,11 +74,13 @@ nav a:hover {
     
 }
 
+/*
 nav img:hover {
     
     opacity: 0.6;
     
 }
+*/
 
 
 img.logo {
@@ -169,13 +171,28 @@ img.banner {
     
     width: 100%;
     padding: 30px 0;
-    border-top: 100px solid #6BCDEF;
-    border-bottom: 100px solid #6BCDEF;
+    border-top: 10px solid #6BCDEF;
+    border-bottom: 10px solid #6BCDEF;
     
 /*
         border-top: 100px solid black;
     border-bottom: 100px solid black;
 */
+}
+
+div.blocks-container {
+    
+    width: 100%;
+    height: 100px;
+/*    float: left;*/
+}
+
+.blocks-container .block, .blocks-container .block2, .blocks-container .block3, .blocks-container .block4, .blocks-container .block5, .blocks-container .block6, .blocks-container .block7, .blocks-container .block8, .blocks-container .block9, .blocks-container .block10, .blocks-container .block11 {
+    
+    width: 50px;
+    float: left;
+    display: inline;
+    
 }
 
 
@@ -187,70 +204,70 @@ section.monster1 {
 }
 
 
-section.monster2 {
+section.monster2, .block {
     
     background-color: #57E0E7;
 }
 
 
-section.monster3 {
+section.monster3, .block2 {
     
     background-color: #B7EA34;
 }
 
 
-section.monster4 {
+section.monster4, .block3 {
     
     background-color: #FEF75C;
 }
 
 
 
-section.monster5 {
+section.monster5, .block4 {
     
     background-color: #00EDFF;
 }
 
 
-section.monster6 {
+section.monster6, .block5 {
     
     background-color: #FABF00;
 }
 
 
-section.monster7 {
+section.monster7, .block6 {
     
     background-color: #01A1F2;
     color: #dedede;
 }
 
 
-section.monster8 {
+section.monster8, .block7 {
     
     background-color: #14EFF5;
 }
 
 
-section.monster9 {
+section.monster9, .block8 {
     
     background-color: #7451E2;
     color: #dedede;
 }
 
 
-section.monster10 {
+section.monster10, .block9 {
     
     background-color: #37D4FF;
     
 }
 
-section.monster11 {
+section.monster11, .block10 {
     
     background-color: #70FF90;
 }
 
 
-section.monster12 {
+section.monster12, .block11 {
     
     background-color: #DEBDEC;
 }
@@ -267,7 +284,7 @@ section figure {
     float: left;
 }
 
-section figure.opposite-side {
+figure.opposite-side, figure.opposite-side-showcase {
   float: right;   
 }
 
@@ -278,6 +295,18 @@ figure, figure img {
     
 }
 
+figure.opposite-side-showcase img{
+    
+    width: 400px;
+    
+}
+
+
+figure.opposite-side-showcase {
+    
+    padding-right: 130px;
+    
+}
 
 div.about-monsters {
     
@@ -294,12 +323,30 @@ div.about-monsters-opposite {
 }
 
 
-div.about-monsters h1, div.about-monsters-opposite h1 {
+h1, div.about-monsters h1, div.about-monsters-opposite h1, .sec-showcase h1 {
     
     font-size: 3em;
     font-weight: 100;
     
 }
+
+ .sec-showcase h1, .letusknow h1, .letusknow h2 {
+     
+     text-align: center;
+     
+ }
+
+
+.letusknow h2 {
+    
+/*    padding: 50px;*/
+    font-size: 2.5em;
+    font-weight: 100;
+    padding-right: 20px;
+    
+}
+
+
 
 div.about-monsters p, div.about-monsters-opposite p {
     padding-top: 10px;
@@ -332,6 +379,46 @@ div.wrapper {
     margin: auto;
  
 }
+
+.showcase-wrapper {
+    
+    margin-top: 100px;
+    
+}
+
+img.monster-heads {
+    
+    width: 100%;
+    border-bottom: 10px solid #6BCDEF;
+}
+
+section.letusknow {
+    
+    padding-bottom: 20px;
+        border-top: 10px solid #6BCDEF;
+/*    border-bottom: 100px solid #6BCDEF;*/
+    
+}
+
+.letusknow div h2, .letusknow div p {
+    
+    display: inline;
+    
+    
+}
+
+.letusknow div {
+    
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.letusknow div p {
+    
+ 
+}
+
 
 footer {
     
