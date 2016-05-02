@@ -180,18 +180,19 @@ img.banner {
 */
 }
 
-div.blocks-container {
+div.colour-line {
     
-    width: 100%;
-    height: 100px;
-/*    float: left;*/
+    height: 10px;
+    background-image: url(../images/colourful-line.png)
+/*    background-repeat: repeat-x;*/
 }
 
-.blocks-container .block, .blocks-container .block2, .blocks-container .block3, .blocks-container .block4, .blocks-container .block5, .blocks-container .block6, .blocks-container .block7, .blocks-container .block8, .blocks-container .block9, .blocks-container .block10, .blocks-container .block11 {
+h1.meetthemon {
     
-    width: 50px;
-    float: left;
-    display: inline;
+    text-align: center;
+    padding: 100px;
+/*    border-top: 10px solid #6BCDEF;*/
+
     
 }
 
@@ -204,70 +205,70 @@ section.monster1 {
 }
 
 
-section.monster2, .block {
+section.monster2 {
     
     background-color: #57E0E7;
 }
 
 
-section.monster3, .block2 {
+section.monster3 {
     
     background-color: #B7EA34;
 }
 
 
-section.monster4, .block3 {
+section.monster4 {
     
     background-color: #FEF75C;
 }
 
 
 
-section.monster5, .block4 {
+section.monster5 {
     
     background-color: #00EDFF;
 }
 
 
-section.monster6, .block5 {
+section.monster6 {
     
     background-color: #FABF00;
 }
 
 
-section.monster7, .block6 {
+section.monster7 {
     
     background-color: #01A1F2;
     color: #dedede;
 }
 
 
-section.monster8, .block7 {
+section.monster8 {
     
     background-color: #14EFF5;
 }
 
 
-section.monster9, .block8 {
+section.monster9 {
     
     background-color: #7451E2;
     color: #dedede;
 }
 
 
-section.monster10, .block9 {
+section.monster10 {
     
     background-color: #37D4FF;
     
 }
 
-section.monster11, .block10 {
+section.monster11 {
     
     background-color: #70FF90;
 }
 
 
-section.monster12, .block11 {
+section.monster12 {
     
     background-color: #DEBDEC;
 }
@@ -382,9 +383,36 @@ div.wrapper {
 
 .showcase-wrapper {
     
-    margin-top: 100px;
+    margin-top: 50px; /* was 100 */
     
 }
+
+.showcase-wrapper p {
+    
+    margin-top: 10px;
+
+}
+
+
+a.download-link {
+    
+    background-color: #B7EA34;
+    padding: 10px;
+    width: 130px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px 4px rgba(150, 150, 150, 0.36);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(171,169,171,1);
+-moz-box-shadow: 0px 2px 6px 0px rgba(171,169,171,1);
+box-shadow: 0px 2px 6px 0px rgba(171,169,171,1);
+}
+
+a.download-link, a:hover.download-link {
+    
+    border: none;
+    
+}
+
 
 img.monster-heads {
     
@@ -425,5 +453,96 @@ footer {
     text-align: center;
     padding: 50px;
     font-size: 0.8em;
+}
+
+
+/* Icon Hang from http://ianlunn.github.io/Hover/ */
+@-webkit-keyframes hvr-icon-hang {
+  0% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  50% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes hvr-icon-hang {
+  0% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  50% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@-webkit-keyframes hvr-icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes hvr-icon-hang-sink {
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+
+.hvr-icon-hang {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-hang:before {
+  content: "\f078";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-hang:hover:before, .hvr-icon-hang:focus:before, .hvr-icon-hang:active:before {
+  -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+  animation-name: hvr-icon-hang-sink, hvr-icon-hang;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
 
