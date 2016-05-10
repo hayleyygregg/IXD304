@@ -34,6 +34,14 @@ header {
 }
 
 
+h2, nav {
+    
+    position: relative; 
+    right: 20px;    /* so it looks in line with the img */
+    
+}
+
+
 nav {
  
     padding-top: 20px;
@@ -74,18 +82,24 @@ nav a:hover {
     
 }
 
-/*
-nav img:hover {
+nav .email:hover {
     
-    opacity: 0.6;
+        opacity: 0.6;
     
 }
-*/
 
+
+a.showme {
+    
+    font-size: 0.7em;
+    
+}
 
 img.logo {
     
     width: 600px;
+    margin: auto;
+    display: block;
 }
 
 /* changed to image
@@ -108,7 +122,7 @@ header h1 {
 h2 {
 
     font-size: 1em;
-    padding-top: 10px;
+    padding-top: 25px;
 
 }
 
@@ -138,7 +152,7 @@ section.about {
 section.about p {
     
         font-size: 1.8em;
-    font-weight: 200; 
+        font-weight: 100; 
     
 }
 
@@ -169,15 +183,16 @@ height: 1px;
 
 img.banner {
     
-    width: 100%;
+    width: 90%;
     padding: 30px 0;
+    margin: auto;
+    display: block;
+}
+
+.banner-wrapper {
     border-top: 10px solid #6BCDEF;
     border-bottom: 10px solid #6BCDEF;
     
-/*
-        border-top: 100px solid black;
-    border-bottom: 100px solid black;
-*/
 }
 
 div.colour-line {
